@@ -1,14 +1,13 @@
-<!-- Loop over each object in the plants array -->
-{{#each plants as |plant|}}
+<!-- Loop over each object in the posts array -->
+{{#each posts as |post|}}
 <div class="card-sizing">
   <div class="card-flex-article card medium-3">
     <div class="card-image">
-      <img src="images/plants/{{plant.filename}}">
+      <img src="images/posts/{{post.filename}}">
     </div>
     <div class="card-section">
-      <h3 class="article-title"><a href="/plants/{{id}}">{{plant.name}}</a></h3>
-      <p class="season">{{plant.plantSeason}}</p>
-      <p class="article-summary">{{plant.description}}</p>
+      <h3 class="article-title"><a href="/posts/{{id}}">{{post.name}}</a></h3>
+      <p class="article-summary">{{post.description}}</p>
     </div>
     <div class="card-divider align-middle">
       <div class="user-info">
@@ -23,13 +22,13 @@
 {{#if logged_in}}
 <div class="w-100">
   <div>
-    <button class="viewBtn"><a href="/plants">View All Plants
+    <button class="viewBtn"><a href="/posts">View All Posts
       </a>
     </button>
   </div>
   {{else}}
   <div>
-    <button class="viewBtn"><a href="/login">View All Plants
+    <button class="viewBtn"><a href="/login">View All Posts
       </a>
     </button>
   </div>

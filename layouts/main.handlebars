@@ -22,7 +22,7 @@
     <div class="top-bar-right">
       <ul class="menu simple vertical medium-horizontal">
         <li><a href="/" class="home">Home</a></li>
-        <li><a href="/plants" class="plants">See Plants</a></li>
+        <li><a href="/posts" class="posts">See Posts</a></li>
           <button type="no-button" class="button hollow topbar-responsive-button" id="logout">Logout</button>
         </li>
       </ul>
@@ -31,8 +31,8 @@
   <div class="marketing-site-hero image">
   <div class="marketing-site-hero-content">
     <h1>Welcome to The Coder's Almanac!</h1>
-    <p class="subheader">Prep for garden season by finding and adding new plants to our digital seed library!</p>
-    <a href="/form" class="addBtn">Add Plants</a>
+    <p class="subheader">Prep for garden season by finding and adding new posts to our digital seed library!</p>
+    <a href="/form" class="addBtn">Add Posts</a>
   </div>
 </div>
         {{else}}
@@ -51,7 +51,7 @@
   <div class="marketing-site-hero">
   <div class="marketing-site-hero-content">
     <h1>Welcome to The Coder's Almanac!</h1>
-    <p class="subheader">Prep for garden season by finding and adding new plants to our digital seed library!</p>
+    <p class="subheader">Prep for garden season by finding and adding new posts to our digital seed library!</p>
   </div>
 </div>
 
@@ -62,21 +62,6 @@
       <!-- Render the sub layout -->
       {{{ body }}}
     </main>
-    <footer>
-      <footer class="social-footer">
-  <div class="social-footer-left">
-    <a href="/"><img class="logo" src="/images/logo.png"></a>
-  </div>
-  <div>
-    <ul>
-      <a href="https://www.almanac.com/gardening/planting-calendar/zipcode">Start Planting in Your City!</a>
-    </ul>
-  </div>
-</footer>
-
-
-    </footer>
-  </div>
 
   <!-- Render script for logged in users only -->
   {{#if logged_in}}

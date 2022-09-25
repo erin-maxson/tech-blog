@@ -1,13 +1,13 @@
 const express = require('express');
 const router = express.Router();
-const { User, Plant, Comment } = require('../../models');
+const { User, Post, Comment } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 router.get('/', async (req, res)=>{
     try {
         const commentData = await Comment.findAll({
             include:[
-                User, Plant
+                User, Post
             ]
         });
 
@@ -23,7 +23,7 @@ router.get('/:id', async (req, res)=>{
         const commentData = await Comment.findByPk(req.params.id, 
         {
             include:[
-                User, Plant
+                User, Post
             ]
         });
 
@@ -39,7 +39,7 @@ router.post('/', withAuth, async (req,res) => {
         const commentData = await Comment.create({
             body: req.body.body,
             user_id: req.session.user.id,
-            plant_id: req.body.plantId
+            post_id: req.body.post_id
         });
 
         res.json(commentData);

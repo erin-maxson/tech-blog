@@ -1,4 +1,4 @@
-DROP DATABASE IF EXISTS plant_db;
-CREATE DATABASE plant_db;
+DROP DATABASE IF EXISTS post_db;
+CREATE DATABASE post_db;
 
-USE plant_db;
+USE post_db;

@@ -1,16 +1,16 @@
 const router = require('express').Router();
-const { Plant, User } = require('../../models');
+const { Post, User } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 router.get('/', async (req,res)=>{
   try {
-    const plantData = await Plant.findAll({
+    const postData = await Post.findAll({
       include: [
         User
       ]
     });
 
-    res.json(plantData)
+    res.json(postData)
   }
   catch (err) {
     res.status(500).json(err);
@@ -19,13 +19,13 @@ router.get('/', async (req,res)=>{
 
 router.get('/:id', async (req,res) => {
   try {
-    const plantData = await Plant.findByPk(req.params.id, {
+    const postData = await Post.findByPk(req.params.id, {
       include: [
         User
       ]
     });
 
-    res.json(plantData);
+    res.json(postData);
   }
   catch (err) {
     res.status(500).json(err);
@@ -35,13 +35,13 @@ router.get('/:id', async (req,res) => {
 router.post('/', withAuth, async (req, res) => {
   try {
     console.log(req.body)
-    const newPlant = await Plant.create({
+    const newPost = await Post.create({
       ...req.body,
       filename: '',
       user_id: req.session.user_id,
     });
 
-    res.status(200).json(newPlant);
+    res.status(200).json(newPost);
   } catch (err) {
     console.log(err)
     res.status(400).json(err);
@@ -50,19 +50,19 @@ router.post('/', withAuth, async (req, res) => {
 
 router.delete('/:id', withAuth, async (req, res) => {
   try {
-    const plantData = await Plant.destroy({
+    const postData = await Post.destroy({
       where: {
         id: req.params.id,
         user_id: req.session.user_id,
       },
     });
 
-    if (!plantData) {
-      res.status(404).json({ message: 'No plant found with this id!' });
+    if (!postData) {
+      res.status(404).json({ message: 'No post found with this id!' });
       return;
     }
 
-    res.status(200).json(plantData);
+    res.status(200).json(postData);
   } catch (err) {
     res.status(500).json(err);
   }
