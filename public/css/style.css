@@ -1,17 +1,17 @@
 nav {
-  background-color:#353d27;
-  color:#f6ffe9;
+  background-color:#0B6AB0;
+  color:#F8D605;
   padding: 30px;
   align-content: right;
   font-family: 'Work Sans', sans-serif;
 }
 
 nav a {
-  color:#f6ffe9;
+  color:#F8D605;
 }
 
 nav a:hover {
-  color:#0B6AB0;
+  color:#F36B1C;
 }
 
 nav li {
@@ -27,7 +27,7 @@ header, .project:not(:last-child) {
   border: none;
   padding: 0;
   cursor: pointer;
-  color: #77bf45;
+  color: #0B6AB0;
   text-decoration: none;
   font-size: 100%;
 }
@@ -52,7 +52,7 @@ header, .project:not(:last-child) {
 }
 
 .topbar-responsive .menu a {
-  color: #f6ffe9;
+  color: #F8D605;
   transition: color 0.15s ease-in;
   font-family: 'Work Sans', sans-serif;
   font-weight: 200;
@@ -69,8 +69,8 @@ header, .project:not(:last-child) {
 }
 
 .topbar-responsive .menu .topbar-responsive-button {
-  color: #f6ffe9;
-  border-color: #f6ffe9;
+  color: #F8D605;
+  border-color: #F8D605;
   border-radius: 5000px;
   transition: color 0.15s ease-in, border-color 0.15s ease-in;
 }
@@ -98,7 +98,7 @@ header, .project:not(:last-child) {
   .topbar-responsive .top-bar-title span {
     position: absolute;
     right: 0;
-    border: 1px solid #f6ffe9;
+    border: 1px solid #F8D605;
     border-radius: 5px;
     padding: 0.25rem 0.45rem;
     top: 50%;
@@ -165,7 +165,7 @@ header, .project:not(:last-child) {
 
 
 body {
-  background-color: #f6ffe9;
+  background-color: #F8D605;
 }
 
 a {
@@ -178,7 +178,7 @@ a:hover {
 
 .viewBtn {
   background-color: #0B6AB0;
-  color:#f6ffe9;
+  color:#F8D605;
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   border-radius: 200px;
@@ -198,7 +198,7 @@ a:hover {
 .sign-in-form {
   padding: 1rem 1.5em;
   border-radius: .5rem;
-  background-color: #353d27;
+  background-color: #0B6AB0;
   font-family: 'Work Sans', sans-serif;
   width: 25%;
   align-content: center;
@@ -207,7 +207,7 @@ a:hover {
 }
 
 .sign-in-form h4 {
-  color: #f6ffe9;
+  color: #F8D605;
   margin-bottom: 1rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -215,14 +215,14 @@ a:hover {
 
 .sign-in-form label {
   text-transform: uppercase;
-  color: #f6ffe9;
+  color: #F8D605;
   letter-spacing: 1px;
   font-weight: 600;
   margin-bottom: 1rem;
 }
 
 .sign-in-form input {
-  color: #353d27;
+  color: #0B6AB0;
 }
 
 .sign-in-form input:focus {
@@ -241,8 +241,8 @@ a:hover {
 
 .sign-in-form-button {
   border-radius: 30px;
-  border: 1px solid #f6ffe9;
-  color: #f6ffe9;
+  border: 1px solid #F8D605;
+  color: #F8D605;
   background-color: transparent;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -353,7 +353,7 @@ padding: 25px;
 
 /* add a plant form button on main (once logged in) */
 .marketing-site-hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1611843467160-25afb8df1074?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1580894742597-87bc8789db3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2970&q=80");
   height: 45vh;
   width: 100%;
   background-size: cover;
