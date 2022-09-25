@@ -30,9 +30,9 @@ The user can find all plants and their seed information through the homepage car
 ![sign in process](public/images/screenshots/sign%20in.png)
 
 If a user wants to add more details about their seeds or plants not currently listed in the digital library, they can add a new plant through our "Add a New Plant" form that includes all of the seeding dates.
-![add new post form](public/images/screenshots/addplant.png)
+![add new post form](public/images/screenshots/add%20post.png)
 
-See the full application video here: (https://www.youtube.com/watch?v=0iCqN_xj-bU)
+See the full application video here: (https://drive.google.com/file/d/1L9UgPeqBEYICGYUm3vML4pmepIlOaG3y/view)
 
 ## Credits
 Using the previous group project, I was able to create this Tech Blog. Without the previous help of my team members, this process would have been much longer.
