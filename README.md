@@ -1,12 +1,8 @@
-# coders-almanac
+# tech-blog
 
 ## Description
 
-The Coder's Almanac is a digital seed library that allows tech-savvy gardeners to input their seed and planting information for their garden into one database. 
-
-As gardeners, it can be difficult to have all of your seed information together when you get ready for planting season. You may have leftover seeds that are in ziploc bags or have plant books that are heavy to lug around while you are outside. Now, you can plant your seeds in time for their season just by opening up The Coder's Almanac on your phone while you're working outside.
-
-We learned that it's more difficult than it looks to have the data you need moved from one database onto multiple pages. But we also have many features we want to add to this resource as it's a handy tool for beginner and veteran gardeners alike.
+The Tech Blog is meant for users how want to post and comment on tech-related pieces. Using MVC structure and handlebars, I was able to create this project using the same structure we used for our second group project. The goal of this was to show how handlebars and MVC work together through the templated frontend and separation of files to make it easier to debug and connect APIs in the backend. Users are able to log in and add posts inside the blog, but if they log out, they'll only be able to see up to 9 blog posts/comments.
 
 ## Table of Contents (Optional)
 
@@ -19,24 +15,27 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-In order to open The Coder's Almanac, you will have to download all files from this project. Install Express.js, Inquirer, and node.js (npm install express, npm install i, npm i)  using the integrated terminal. The user should also run mysql to gain access to the database using "mysql -u root -p" and "source db/schema.sql" before running the seed data (npm run seed) and server (npm start).
+In order to open The Tech Blog, you will have to download all files from this project. Install Express.js, Inquirer, and node.js (npm install express, npm install i, npm i)  using the integrated terminal. The user should also run mysql to gain access to the database using "mysql -u root -p" and "source db/schema.sql" before running the seed data (npm run seed) and server (npm start).
 
 To open up the application outside of terminal, the user should go to http://localhost:3001 to view the application.
 
+To view the application on Heroku, the user must visit https://techie-blog-erinm.herokuapp.com/.
+
 ## Usage
 
-The intended use of this application is to find and upload plant seed data to our digital seed library.
+The intended use of this application is to read and upload tech blogs/comments.
 
 The user can find all plants and their seed information through the homepage cards. After clicking on the plant cards, the user will be taken to the plant details page where they will find the planting and seasonal information related to the plant. 
-![homepage](public/images/screenshots/home.png)
-![plant details page](public/images/screenshots/details.png)
+![homepage](public/images/screenshots/homepage.png)
+![sign in process](public/images/screenshots/sign%20in.png)
 
 If a user wants to add more details about their seeds or plants not currently listed in the digital library, they can add a new plant through our "Add a New Plant" form that includes all of the seeding dates.
-![add new plant form](public/images/screenshots/addplant.png)
+![add new post form](public/images/screenshots/addplant.png)
 
 See the full application video here: (https://www.youtube.com/watch?v=0iCqN_xj-bU)
 
 ## Credits
+Using the previous group project, I was able to create this Tech Blog. Without the previous help of my team members, this process would have been much longer.
 
 Collaborators:
 Austin Fu, [https://github.com/fubaru]
