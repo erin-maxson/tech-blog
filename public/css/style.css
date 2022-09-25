@@ -11,7 +11,7 @@ nav a {
 }
 
 nav a:hover {
-  color:#77bf45;
+  color:#0B6AB0;
 }
 
 nav li {
@@ -33,7 +33,7 @@ header, .project:not(:last-child) {
 }
 
 .no-button:hover {
-  color: #77bf45;
+  color: #0B6AB0;
   text-decoration: underline;
 }
 
@@ -59,7 +59,7 @@ header, .project:not(:last-child) {
 }
 
 .topbar-responsive .menu a:hover {
-  color: #77bf45;
+  color: #0B6AB0;
 }
 
 @media screen and (max-width: 39.9375em) {
@@ -76,8 +76,8 @@ header, .project:not(:last-child) {
 }
 
 .topbar-responsive .menu .topbar-responsive-button:hover {
-  background-color: #77bf45;
-  border-color: #77bf45;
+  background-color: #0B6AB0;
+  border-color: #0B6AB0;
 }
 
 @media screen and (max-width: 39.9375em) {
@@ -173,11 +173,11 @@ a {
 }
 
 a:hover {
-  color:#77bf45;
+  color:#0B6AB0;
 }
 
 .viewBtn {
-  background-color: #77bf45;
+  background-color: #0B6AB0;
   color:#f6ffe9;
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
@@ -252,8 +252,8 @@ a:hover {
 }
 
 .sign-in-form-button:hover {
-  background-color:#77bf45;
-  border-color: #77bf45;
+  background-color:#0B6AB0;
+  border-color: #0B6AB0;
 }
 
 /* plant cards on homepage */
@@ -302,7 +302,7 @@ padding: 25px;
   font-size: 1.75rem;
   margin-bottom: 0;
   padding-left: 10px;
-  color: #77bf45;
+  color: #0B6AB0;
   text-align: center;
 }
 
@@ -319,7 +319,7 @@ padding: 25px;
 }
 
 .card-divider.align-middle {
-  background-color: #77bf45;
+  background-color: #0B6AB0;
   color:#f6ffe9;
 }
 
@@ -386,12 +386,12 @@ padding: 25px;
 }
 
 a.addBtn {
-  background-color: #77bf45;
+  background-color: #0B6AB0;
   color:#f6ffe9;
   padding: 10px;
   margin: 10px;
   border-radius: 20px;
-  border-color: #77bf45;
+  border-color: #0B6AB0;
   align-items: center;
 }
 
@@ -428,5 +428,5 @@ form {
 }
 
 .social-footer a:hover {
-  color:#77bf45;
+  color:#0B6AB0;
 }

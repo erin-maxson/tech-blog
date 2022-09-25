@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>The Coder's Almanac</title>
+  <title>Techie Blog</title>
   <link rel="stylesheet" href="/css/jass.css">
   <link rel="stylesheet" href="/css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;400&display=swap" rel="stylesheet">
@@ -22,7 +22,7 @@
     <div class="top-bar-right">
       <ul class="menu simple vertical medium-horizontal">
         <li><a href="/" class="home">Home</a></li>
-        <li><a href="/plants" class="plants">See Plants</a></li>
+        <li><a href="/plants" class="plants">See All Posts</a></li>
           <button type="no-button" class="button hollow topbar-responsive-button" id="logout">Logout</button>
         </li>
       </ul>
@@ -30,9 +30,9 @@
   </div>
   <div class="marketing-site-hero image">
   <div class="marketing-site-hero-content">
-    <h1>Welcome to The Coder's Almanac!</h1>
-    <p class="subheader">Prep for garden season by finding and adding new plants to our digital seed library!</p>
-    <a href="/form" class="addBtn">Add Plants</a>
+    <h1>Welcome to The Techie Blog!</h1>
+    <p class="subheader">Read and publish posts related to all things tech.</p>
+    <a href="/form" class="addBtn">Add a Post</a>
   </div>
 </div>
         {{else}}
@@ -50,8 +50,8 @@
 
   <div class="marketing-site-hero">
   <div class="marketing-site-hero-content">
-    <h1>Welcome to The Coder's Almanac!</h1>
-    <p class="subheader">Prep for garden season by finding and adding new plants to our digital seed library!</p>
+    <h1>Welcome to The Techie Blog!</h1>
+    <p class="subheader">Read and publish posts related to all things tech.</p>
   </div>
 </div>
 
@@ -62,21 +62,6 @@
       <!-- Render the sub layout -->
       {{{ body }}}
     </main>
-    <footer>
-      <footer class="social-footer">
-  <div class="social-footer-left">
-    <a href="/"><img class="logo" src="/images/logo.png"></a>
-  </div>
-  <div>
-    <ul>
-      <a href="https://www.almanac.com/gardening/planting-calendar/zipcode">Start Planting in Your City!</a>
-    </ul>
-  </div>
-</footer>
-
-
-    </footer>
-  </div>
 
   <!-- Render script for logged in users only -->
   {{#if logged_in}}
